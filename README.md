@@ -1,6 +1,6 @@
 # Assessment Questions with Answers on  Python Fundamentals Aligned to Competency Standards developed by IT-ITeS Sector Skills Council  NASSCOM in collaboration with Industry and approved by Government by solving this questions I got NASSCOM certification 
 
-Q1. Consider two lists in Python named `example1`: `["Blue", 35.6, 100, "Red", "Pink"]` and `example2`: `["Purple", 1, 7.3]`. A programmer wants to merge these two lists in such a way that elements of the `example2` list are added one by one at the end of the `example1` list, i.e., the below given output is obtained:
+### Q1. Consider two lists in Python named `example1`: `["Blue", 35.6, 100, "Red", "Pink"]` and `example2`: `["Purple", 1, 7.3]`. A programmer wants to merge these two lists in such a way that elements of the `example2` list are added one by one at the end of the `example1` list, i.e., the below given output is obtained:
 ['Blue', 35.6, 100, 'Red', 'Pink', 'Purple', 1, 7.3]
 Which of the following is the correct syntax of the code that will do the needful?
 
@@ -35,7 +35,7 @@ Which of the following is the correct syntax of the code that will do the needfu
 Answer: 4
 
 ------------------------------------------------------------------------------------------------------------------------
-###Q2. Which of the following is NOT a correct feature of Sets in Python?
+### Q2. Which of the following is NOT a correct feature of Sets in Python?
 
 1. Set values are mutable
 2. Sets are unordered
@@ -94,7 +94,7 @@ Which of the following code snippets should he add at the end of the given code 
 Answer:4
 ------------------------------------------------------------------------------------------------------------------------
 
-###Q4. Analyse the below given Python code snippet.
+### Q4. Analyse the below given Python code snippet.
 
 Which of the following code snippets should be there in place of the question mark “??” so that the following output is printed on the compilation?
 
@@ -139,7 +139,7 @@ e
    ```
 Answer: 2
 ------------------------------------------------------------------------------------------------------------------------
-###Q5. Sam wrote a Python programme that takes a numeric value as input from the user and then prints its factorial value. The program, however, contains errors and is not running and producing the desired result.
+### Q5. Sam wrote a Python programme that takes a numeric value as input from the user and then prints its factorial value. The program, however, contains errors and is not running and producing the desired result.
 1) n = int(input("Enter a number:"))
 2) fact = 1
 3) if n < 0:
@@ -157,14 +157,14 @@ Analyse the programme code and identify the line numbers that contain errors.
 4. Line 1, Line 5 and Line 9
 Answer: 3
 ------------------------------------------------------------------------------------------------------------------------
-###Q6. In Python, which of the following files must be present in a package and module?
+### Q6. In Python, which of the following files must be present in a package and module?
 1. A package must hold the `_init_.py` file while a module must hold `_exec_.py` file
 2. A package must hold the `_exec_.py` file while a module must hold `_init_.py` file
 3. A package must hold the `_init_.py` file while no such condition is applicable for modules
 4. Both, the package and a module, must hold the `_exec_.py`
 Answer: 3
 
-###Q7. A programmer has written the following Python code snippet.
+### Q7. A programmer has written the following Python code snippet.
 a1 = {0: 'False', 1: 'False'}
 print(all(a1))
 a2 = {1: 'True', False: 0}
@@ -183,7 +183,7 @@ What will happen when this code is executed?
    `True`
 Answer: 4
 ------------------------------------------------------------------------------------------------------------------------
-###Q8. While using regular expression in Python, which of the following options should a user choose if he wants to match any whitespace character, equivalent to `[tnrfv]` in a string pattern with the ASCII flag?
+### Q8. While using regular expression in Python, which of the following options should a user choose if he wants to match any whitespace character, equivalent to `[tnrfv]` in a string pattern with the ASCII flag?
 1. `\W`
 2. `\w`
 3. `\s`
@@ -203,7 +203,7 @@ Answer:3
 
 Answer: 2
 ------------------------------------------------------------------------------------------------------------------------
-Q10. A programmer is working with a long string in a Python program.
+### Q10. A programmer is working with a long string in a Python program.
 Which of the following commands should be added to the given code in order to get the following output?
 Output:
 ['87654', '876543', '8765432', '8765432']
@@ -234,7 +234,7 @@ values = "876 8765 87654 876543 8765432 87654321"
    ```
 Answer:** 1
 ------------------------------------------------------------------------------------------------------------------------
-Q11. A user is importing data from a file named `example1.csv` using Pandas. He is using the `mba` data set.
+### Q11. A user is importing data from a file named `example1.csv` using Pandas. He is using the `mba` data set.
 
 During the process, which of the following options can be used to get the size of the dataframe?
 
@@ -248,7 +248,7 @@ D. `mba.shape`
 
 Answer: C. `mba.size`
 ------------------------------------------------------------------------------------------------------------------------
-Q12. A developer is working with the NumPy module. He wants to create a list with values ranging from 0 to 9 and print these values. He then wishes to hide the odd values and print only the even values (array masking). The code should print the following output:
+### Q12. A developer is working with the NumPy module. He wants to create a list with values ranging from 0 to 9 and print these values. He then wishes to hide the odd values and print only the even values (array masking). The code should print the following output:
 [0 1 2 3 4 5 6 7 8 9]
 [0 2 4 6 8]
 Which of the following is the correct code snippet to do so?
@@ -298,7 +298,7 @@ m= (val%2 == 0)
 print(val[m])
 ```
 ------------------------------------------------------------------------------------------------------------------------
-Q13. Which of the following is the correct syntax for creating a single tuple in Python?
+### Q13. Which of the following is the correct syntax for creating a single tuple in Python?
 
 A. `tu1 = (50,)`
 
@@ -328,7 +328,7 @@ D. `a1.drop(91)`
 
 **Answer: B. `a1.remove(91)`**
 ------------------------------------------------------------------------------------------------------------------------
-Q15. Mark wants to create a tuple in Python with values `14, 24, 5, 6.5, "Colour", "fruits"` and `"Objects"` in this order. He then wishes to print the type, the data type used (which is a tuple), the fourth value in the tuple, and then the first five values from the tuple, i.e., the following output:
+### Q15. Mark wants to create a tuple in Python with values `14, 24, 5, 6.5, "Colour", "fruits"` and `"Objects"` in this order. He then wishes to print the type, the data type used (which is a tuple), the fourth value in the tuple, and then the first five values from the tuple, i.e., the following output:
 
 ```
 6.5
@@ -377,7 +377,7 @@ print(t1[3])
 print(t1[:5])
 ```
 ------------------------------------------------------------------------------------------------------------------------
-Q16. What happens when the following Python code is compiled and executed?
+ ### Q16. What happens when the following Python code is compiled and executed?
 
 ```python
 t1 = (6, 14, 15.2, 11.5, "Nina", "Lisa", "Mary")
@@ -408,7 +408,7 @@ D. The code will compile successfully, and it will print the following output:
 (6, 14, 15.2, 11.5, 'Nina', 'Lisa', 'Mary', 1, 2, 3, 4, 5)
 ```
 ------------------------------------------------------------------------------------------------------------------------
-Q17. What happens when the following Python code is compiled and executed?
+### Q17. What happens when the following Python code is compiled and executed?
 
 ```python
 t1 = (6, 14, 15.2, 11.5, "Nina", "Lisa", "Mary")
@@ -439,7 +439,7 @@ D. The code will compile successfully, and it will print the following output:
 (6, 14, 15.2, 11.5, 'Nina', 'Lisa', 'Mary', 1, 2, 3, 4, 5)
 ```
 ------------------------------------------------------------------------------------------------------------------------
-Q18. Consider the following set named `myExample` in Python.
+### Q18. Consider the following set named `myExample` in Python.
 
 ```python
 myExample = set(["PQ", "RS", "TU", "VW"])
