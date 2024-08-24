@@ -1,6 +1,6 @@
 # Assessment Questions with Answers on  Python Fundamentals Aligned to Competency Standards developed by IT-ITeS Sector Skills Council  NASSCOM in collaboration with Industry and approved by Government by solving this questions I got NASSCOM certification 
 
-###Q1. Consider two lists in Python named `example1`: `["Blue", 35.6, 100, "Red", "Pink"]` and `example2`: `["Purple", 1, 7.3]`. A programmer wants to merge these two lists in such a way that elements of the `example2` list are added one by one at the end of the `example1` list, i.e., the below given output is obtained:
+Q1. Consider two lists in Python named `example1`: `["Blue", 35.6, 100, "Red", "Pink"]` and `example2`: `["Purple", 1, 7.3]`. A programmer wants to merge these two lists in such a way that elements of the `example2` list are added one by one at the end of the `example1` list, i.e., the below given output is obtained:
 ['Blue', 35.6, 100, 'Red', 'Pink', 'Purple', 1, 7.3]
 Which of the following is the correct syntax of the code that will do the needful?
 
@@ -138,7 +138,7 @@ e
    while Enabled:
    ```
 Answer: 2
-
+------------------------------------------------------------------------------------------------------------------------
 Q5. Sam wrote a Python programme that takes a numeric value as input from the user and then prints its factorial value. The program, however, contains errors and is not running and producing the desired result.
 1) n = int(input("Enter a number:"))
 2) fact = 1
@@ -156,7 +156,7 @@ Analyse the programme code and identify the line numbers that contain errors.
 3. Line 5 and Line 8
 4. Line 1, Line 5 and Line 9
 Answer: 3
-
+------------------------------------------------------------------------------------------------------------------------
 Q6. In Python, which of the following files must be present in a package and module?
 1. A package must hold the `_init_.py` file while a module must hold `_exec_.py` file
 2. A package must hold the `_exec_.py` file while a module must hold `_init_.py` file
@@ -182,14 +182,14 @@ What will happen when this code is executed?
    `False`<br />
    `True`
 Answer: 4
-
+------------------------------------------------------------------------------------------------------------------------
 Q8. While using regular expression in Python, which of the following options should a user choose if he wants to match any whitespace character, equivalent to `[tnrfv]` in a string pattern with the ASCII flag?
 1. `\W`
 2. `\w`
 3. `\s`
 4. `\S`
 Answer:3
-
+------------------------------------------------------------------------------------------------------------------------
  Q9. Which of the following string declarations are valid in Python?
 1. [i] `mystring1 = 'example'`
 2. [ii] `mystring1 = "example"`
@@ -202,7 +202,7 @@ Answer:3
 4. Only i and iv
 
 Answer: 2
-
+------------------------------------------------------------------------------------------------------------------------
 Q10. A programmer is working with a long string in a Python program.
 Which of the following commands should be added to the given code in order to get the following output?
 Output:
@@ -233,7 +233,7 @@ values = "876 8765 87654 876543 8765432 87654321"
    print(res)
    ```
 Answer:** 1
-
+------------------------------------------------------------------------------------------------------------------------
 Q11. A user is importing data from a file named `example1.csv` using Pandas. He is using the `mba` data set.
 
 During the process, which of the following options can be used to get the size of the dataframe?
@@ -247,7 +247,7 @@ C. `mba.size`
 D. `mba.shape`
 
 Answer: C. `mba.size`
-
+------------------------------------------------------------------------------------------------------------------------
 Q12. A developer is working with the NumPy module. He wants to create a list with values ranging from 0 to 9 and print these values. He then wishes to hide the odd values and print only the even values (array masking). The code should print the following output:
 [0 1 2 3 4 5 6 7 8 9]
 [0 2 4 6 8]
@@ -297,7 +297,7 @@ print(val)
 m= (val%2 == 0)
 print(val[m])
 ```
-
+------------------------------------------------------------------------------------------------------------------------
 Q13. Which of the following is the correct syntax for creating a single tuple in Python?
 
 A. `tu1 = (50,)`
@@ -309,7 +309,7 @@ C. `tu1 = (50;)`
 D. Single tuple is not allowed in Python
 
 **Answer: A. `tu1 = (50,)`**
-
+------------------------------------------------------------------------------------------------------------------------
  Q14. Consider a Python list named `a1` with the following values.
 
 ```python
@@ -327,7 +327,7 @@ C. `a1.delete(91)`
 D. `a1.drop(91)`
 
 **Answer: B. `a1.remove(91)`**
-
+------------------------------------------------------------------------------------------------------------------------
 Q15. Mark wants to create a tuple in Python with values `14, 24, 5, 6.5, "Colour", "fruits"` and `"Objects"` in this order. He then wishes to print the type, the data type used (which is a tuple), the fourth value in the tuple, and then the first five values from the tuple, i.e., the following output:
 
 ```
@@ -376,7 +376,7 @@ print(type(t1))
 print(t1[3])
 print(t1[:5])
 ```
-
+------------------------------------------------------------------------------------------------------------------------
 Q16. What happens when the following Python code is compiled and executed?
 
 ```python
@@ -407,7 +407,7 @@ D. The code will compile successfully, and it will print the following output:
 ```
 (6, 14, 15.2, 11.5, 'Nina', 'Lisa', 'Mary', 1, 2, 3, 4, 5)
 ```
-
+------------------------------------------------------------------------------------------------------------------------
 Q17. What happens when the following Python code is compiled and executed?
 
 ```python
@@ -438,7 +438,7 @@ D. The code will compile successfully, and it will print the following output:
 ```
 (6, 14, 15.2, 11.5, 'Nina', 'Lisa', 'Mary', 1, 2, 3, 4, 5)
 ```
-
+------------------------------------------------------------------------------------------------------------------------
 Q18. Consider the following set named `myExample` in Python.
 
 ```python
@@ -458,7 +458,7 @@ D. `myExample.drop()`
 **Answer: B. `myExample.clear()`**
 
 ---
-
+------------------------------------------------------------------------------------------------------------------------
 ### Q19. While working on a Python program, a user needs to use a data structure that is unordered, indexed, and mutable. Also, this data structure should not allow duplicates.
 
 Which of the following options should he use in this scenario?
@@ -473,7 +473,7 @@ D. `Set`
 
 **Answer: D. `Set`**
 
----
+---------------------------------------------------------------------------------------------------------------------------
 
 ### Q20. A user declared the following set:
 
@@ -515,14 +515,8 @@ a.update
 a.discard("M")
 ```
 
----
+---------------------------------------------------------------------------------------------------------------------------
 
-These questions cover various aspects of Python programming, including data structures, libraries like Pandas and NumPy, and specific methods for handling data types such as tuples, lists, and sets. If you need any changes or additional information, please let me know!
-
-
-Here are the questions formatted as a document with their corresponding answers:
-
----
 
 **Q21. A user declared two sets in Python as follows:**
 
@@ -550,7 +544,7 @@ Which of the following set operations will compile successfully for these two se
 
 **Answer:** Only i and iii
 
----
+---------------------------------------------------------------------------------------------------------------------------
 
 **Q22. Which of the following is a finite loop in Python?**
 
@@ -563,7 +557,7 @@ Which of the following set operations will compile successfully for these two se
 
 **Answer:** For
 
----
+---------------------------------------------------------------------------------------------------------------------------
 
 **Q23. Which of the following Python code snippets will compile?**
 
