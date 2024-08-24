@@ -1,6 +1,6 @@
 # Assessment Questions with Answers on  Python Fundamentals Aligned to Competency Standards developed by IT-ITeS Sector Skills Council  NASSCOM in collaboration with Industry and approved by Government by solving this questions I got NASSCOM certification 
 
-Q1. Consider two lists in Python named `example1`: `["Blue", 35.6, 100, "Red", "Pink"]` and `example2`: `["Purple", 1, 7.3]`. A programmer wants to merge these two lists in such a way that elements of the `example2` list are added one by one at the end of the `example1` list, i.e., the below given output is obtained:
+###Q1. Consider two lists in Python named `example1`: `["Blue", 35.6, 100, "Red", "Pink"]` and `example2`: `["Purple", 1, 7.3]`. A programmer wants to merge these two lists in such a way that elements of the `example2` list are added one by one at the end of the `example1` list, i.e., the below given output is obtained:
 ['Blue', 35.6, 100, 'Red', 'Pink', 'Purple', 1, 7.3]
 Which of the following is the correct syntax of the code that will do the needful?
 
@@ -35,7 +35,7 @@ Which of the following is the correct syntax of the code that will do the needfu
 Answer: 4
 
 ------------------------------------------------------------------------------------------------------------------------
-Q2. Which of the following is NOT a correct feature of Sets in Python?
+###Q2. Which of the following is NOT a correct feature of Sets in Python?
 
 1. Set values are mutable
 2. Sets are unordered
@@ -45,7 +45,7 @@ Q2. Which of the following is NOT a correct feature of Sets in Python?
 Answer:4
 
 ------------------------------------------------------------------------------------------------------------------------
- Q3. A programmer created two empty sets and printed them using the following code:
+ ###Q3. A programmer created two empty sets and printed them using the following code:
 sample1 = set()
 sample2 = set()
 print(sample1, sample2)
@@ -94,7 +94,7 @@ Which of the following code snippets should he add at the end of the given code 
 Answer:4
 ------------------------------------------------------------------------------------------------------------------------
 
-Q4. Analyse the below given Python code snippet.
+###Q4. Analyse the below given Python code snippet.
 
 Which of the following code snippets should be there in place of the question mark “??” so that the following output is printed on the compilation?
 
@@ -139,7 +139,7 @@ e
    ```
 Answer: 2
 ------------------------------------------------------------------------------------------------------------------------
-Q5. Sam wrote a Python programme that takes a numeric value as input from the user and then prints its factorial value. The program, however, contains errors and is not running and producing the desired result.
+###Q5. Sam wrote a Python programme that takes a numeric value as input from the user and then prints its factorial value. The program, however, contains errors and is not running and producing the desired result.
 1) n = int(input("Enter a number:"))
 2) fact = 1
 3) if n < 0:
@@ -157,14 +157,14 @@ Analyse the programme code and identify the line numbers that contain errors.
 4. Line 1, Line 5 and Line 9
 Answer: 3
 ------------------------------------------------------------------------------------------------------------------------
-Q6. In Python, which of the following files must be present in a package and module?
+###Q6. In Python, which of the following files must be present in a package and module?
 1. A package must hold the `_init_.py` file while a module must hold `_exec_.py` file
 2. A package must hold the `_exec_.py` file while a module must hold `_init_.py` file
 3. A package must hold the `_init_.py` file while no such condition is applicable for modules
 4. Both, the package and a module, must hold the `_exec_.py`
 Answer: 3
 
-Q7. A programmer has written the following Python code snippet.
+###Q7. A programmer has written the following Python code snippet.
 a1 = {0: 'False', 1: 'False'}
 print(all(a1))
 a2 = {1: 'True', False: 0}
@@ -183,14 +183,14 @@ What will happen when this code is executed?
    `True`
 Answer: 4
 ------------------------------------------------------------------------------------------------------------------------
-Q8. While using regular expression in Python, which of the following options should a user choose if he wants to match any whitespace character, equivalent to `[tnrfv]` in a string pattern with the ASCII flag?
+###Q8. While using regular expression in Python, which of the following options should a user choose if he wants to match any whitespace character, equivalent to `[tnrfv]` in a string pattern with the ASCII flag?
 1. `\W`
 2. `\w`
 3. `\s`
 4. `\S`
 Answer:3
 ------------------------------------------------------------------------------------------------------------------------
- Q9. Which of the following string declarations are valid in Python?
+### Q9. Which of the following string declarations are valid in Python?
 1. [i] `mystring1 = 'example'`
 2. [ii] `mystring1 = "example"`
 3. [iii] `mystring1 = '''example'''`
