@@ -1,6 +1,6 @@
 # Assessment Questions with Answers on  Python Fundamentals Aligned to Competency Standards developed by IT-ITeS Sector Skills Council  NASSCOM in collaboration with Industry and approved by Government by solving this questions I got NASSCOM certification 
 
-###Q1. Consider two lists in Python named `example1`: `["Blue", 35.6, 100, "Red", "Pink"]` and `example2`: `["Purple", 1, 7.3]`. A programmer wants to merge these two lists in such a way that elements of the `example2` list are added one by one at the end of the `example1` list, i.e., the below given output is obtained:
+Q1. Consider two lists in Python named `example1`: `["Blue", 35.6, 100, "Red", "Pink"]` and `example2`: `["Purple", 1, 7.3]`. A programmer wants to merge these two lists in such a way that elements of the `example2` list are added one by one at the end of the `example1` list, i.e., the below given output is obtained:
 ['Blue', 35.6, 100, 'Red', 'Pink', 'Purple', 1, 7.3]
 Which of the following is the correct syntax of the code that will do the needful?
 
@@ -45,7 +45,7 @@ Answer: 4
 Answer:4
 
 ------------------------------------------------------------------------------------------------------------------------
- ###Q3. A programmer created two empty sets and printed them using the following code:
+ ### Q3. A programmer created two empty sets and printed them using the following code:
 sample1 = set()
 sample2 = set()
 print(sample1, sample2)
